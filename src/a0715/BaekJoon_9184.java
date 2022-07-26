@@ -2,7 +2,6 @@ package a0715;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class BaekJoon_9184 {
@@ -21,7 +20,6 @@ public class BaekJoon_9184 {
 			int b = Integer.parseInt(st.nextToken());
 			int c = Integer.parseInt(st.nextToken());
 			
-			int[] str = new int[3];
 			
 			if(a==-1&&b==-1&&c==-1){
 				break;
